@@ -1,4 +1,4 @@
 {
     "html-css-class-completion.excludeGlobPattern":
-    "{node_modules,!node_modules/@fortawesome/fontawesome-free/scss,!node_modules/mdb-angular-ui-kit/assets/scss,docs,.bundle,vendor}/**"
+    "{doc,docs,.bundle,vendor,!node_modules/mdb-angular-ui-kit,node_modules}/**"
 }

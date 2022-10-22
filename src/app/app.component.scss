@@ -1,41 +1,30 @@
-.logo img {
-  padding: 30px 0;
-  width: 100%;
+a.nav-link:hover{
+  color: blue;
 }
 
-.resource-list {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: larger;
-  padding: 10px;
-  text-align: center;
+@media only screen and (max-width: 950px) {
+  div#sidebar{
+    background-color: gainsboro;
+  }
+  div#contents{
+    margin-top: 10px;
+  }
+  div#scrollspy{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
 }
 
-.resource-list ul {
-    text-align: left;
-    margin: 0 auto;
-    width: 300px;
-}
-
-.resource-list a {
-  color: black;
-  line-height: 30px;
-}
-
-footer {
-  bottom: 10px;
-  font-family: Helvetica, Arial, sans-serif;
-  margin: 0 auto;
-  width: 100%;
-  position: fixed;
-  text-align: center;
-}
-
-footer img {
-    width: 20px;
-}
-
-.scrollspy-example {
-  position: relative;
-  height: 200px;
-  overflow: auto;
+@media only screen and (max-width: 600px) {
+  div#sidebar{
+    background-color: rgb(235, 233, 233);
+  }
+  div#contents{
+    margin-top: 10px;
+  }
+  div#scrollspy{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
